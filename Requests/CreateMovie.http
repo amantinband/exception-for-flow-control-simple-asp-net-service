@@ -1,0 +1,15 @@
+@host = http://localhost:5159
+
+POST {{host}}/movies
+Content-Type: application/json
+
+{
+    "name": "Mantin Bond",
+    "actors": [
+        "John Duh",
+        "Bruh Huh"
+    ],
+    "isHidden": false
+}
+
+###

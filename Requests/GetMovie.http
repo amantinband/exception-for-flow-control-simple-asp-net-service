@@ -1,0 +1,6 @@
+@host = http://localhost:5159
+@movieId = b453656e-7e5e-4dfd-accf-aedac1367668
+
+GET {{host}}/movies/{{movieId}}
+
+###
